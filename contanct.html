@@ -8,7 +8,7 @@
     <title>Contact Cats</title>
 
     <!-- Title Stop -->
-    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="main.css" />
     <link
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       rel="stylesheet"
@@ -36,21 +36,27 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link" href="./index.html">Home</a>
-          <a class="nav-item nav-link" href="./about.html">About</a>
-          <a class="nav-item nav-link" href="./contanct.html">Contact</a>
+          <a class="nav-item nav-link" href="./index.html">Gallery</a>
+          <a class="nav-item nav-link" href="./about.html">About us</a>
+          <a class="nav-item nav-link" href="./contanct.html">Submit a Photo</a>
         </div>
       </div>
     </nav>
     <h1>Contact Cats</h1>
-    <div class="gallery">
-      <img src="./Photos/catsky.jpg" />
-      <img src="./Photos/catfence.jpg" />
-      <img src="./Photos/plantcat.jpg" />
-      <img src="./Photos/coolcat.jpg" />
-      <img src="./Photos/cat.jpg" />
-
-      <img src="./Photos/whitecat.jpg" />
+    <div class="submit-photo">
+      <form action="/">
+        <input type="file" name="picture" />
+        <input id="submit" type="submit" value="submit" />
+      </form>
     </div>
+    <script>
+      alert("Make sure the photo is 1280x854");
+      $(document).ready(function ()) {
+          $("#sumbit").click(function() {
+            $('body').append()
+          });
+
+      }
+    </script>
   </body>
 </html>

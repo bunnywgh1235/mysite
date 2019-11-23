@@ -1,5 +1,15 @@
-h1 {
-  color: black;
+body {
+  background: #606c88; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #3f4c6b,
+    #606c88
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #3f4c6b,
+    #606c88
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .gallery {
@@ -10,6 +20,12 @@ h1 {
 div.gallery > img {
   margin: 0.5em;
   max-width: 439px;
+}
+
+#submit {
+  border-radius: 10px;
+  color: rgb(7, 70, 17);
+  background-color: rgb(48, 155, 34);
 }
 
 @media only screen and (max-width: 500px) {
